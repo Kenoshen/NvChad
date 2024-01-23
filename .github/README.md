@@ -1,3 +1,9 @@
+## Install
+```
+git clone git@github.com/Kenoshen/NvChad ~/.config/nvim --depth 1 && nvim
+```
+
+
 <h1 align="center">NvChad</h1>
 
 <div align="center">
