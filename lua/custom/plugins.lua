@@ -47,5 +47,12 @@ local plugins = {
       vim.cmd [[silent! GoInstallDeps]]
     end,
   },
+  {
+    "prabirshrestha/async.vim",
+  },
+  {
+    "kenn7/vim-arsync",
+    dependencies = {{"prabirshrestha/async.vim"}},
+  },
 }
 return plugins
