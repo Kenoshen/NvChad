@@ -1,6 +1,6 @@
 ## Install
 ```
-git clone git@github.com/Kenoshen/NvChad.git ~/.config/nvim --depth 1 && nvim
+git clone git@github.com:Kenoshen/NvChad.git ~/.config/nvim --depth 1 && nvim
 ```
 
 
