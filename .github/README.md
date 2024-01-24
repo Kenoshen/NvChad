@@ -1,6 +1,9 @@
 ## Install
 ```
 git clone git@github.com:Kenoshen/NvChad.git ~/.config/nvim --depth 1 && nvim
+
+go install github.com/incu6us/goimports-reviser/v3@latest
+go install mvdan.cc/gofumpt@latest
 ```
 
 
