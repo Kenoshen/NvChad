@@ -5,6 +5,8 @@ local plugins = {
       ensure_installed = {
         "gopls",
         "graphql-language-service-cli",
+        "prettier",
+        "typescript-language-server",
       },
     },
   },
