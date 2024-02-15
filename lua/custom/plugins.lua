@@ -7,6 +7,7 @@ local plugins = {
         "graphql-language-service-cli",
         "prettier",
         "typescript-language-server",
+        "eslint-lsp",
       },
     },
   },
@@ -51,11 +52,11 @@ local plugins = {
     end,
   },
   {
-    "prabirshrestha/async.vim",
-  },
-  {
-    "kenn7/vim-arsync",
-    dependencies = {{"prabirshrestha/async.vim"}},
+    "mhartington/formatter.nvim",
+    event = "VeryLazy",
+    opts = function ()
+      return require "custom.configs.formatter"
+    end
   },
 }
 return plugins
